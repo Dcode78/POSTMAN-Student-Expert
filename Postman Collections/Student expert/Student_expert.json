@@ -11,7 +11,7 @@
 			"item": [
 				{
 					"name": "0. Start training",
-					"_postman_id": "79602ffc-a362-4903-81dd-2fb281057d12",
+					"id": "79602ffc-a362-4903-81dd-2fb281057d12",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -24,7 +24,7 @@
 				},
 				{
 					"name": "1. Get matches",
-					"_postman_id": "13bfe43e-f4e5-4d25-93f5-ee8a1ef90d24",
+					"id": "13bfe43e-f4e5-4d25-93f5-ee8a1ef90d24",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -51,7 +51,7 @@
 				},
 				{
 					"name": "2. Add match",
-					"_postman_id": "a44f17b3-688c-4c44-9df6-604b3e7fd0bc",
+					"id": "a44f17b3-688c-4c44-9df6-604b3e7fd0bc",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -73,7 +73,7 @@
 				},
 				{
 					"name": "3. Update score",
-					"_postman_id": "0d69484e-e57b-492a-905f-16088cecdddc",
+					"id": "0d69484e-e57b-492a-905f-16088cecdddc",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -109,7 +109,7 @@
 				},
 				{
 					"name": "4. Remove match",
-					"_postman_id": "540b1f0f-dfa8-4d09-a5ae-1258e51a7361",
+					"id": "540b1f0f-dfa8-4d09-a5ae-1258e51a7361",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -144,8 +144,7 @@
 							"variable": [
 								{
 									"key": "match_id",
-									"value": "Kn6OXMbRG",
-									"type": "string"
+									"value": "Kn6OXMbRG"
 								}
 							]
 						}
@@ -153,7 +152,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "1272b4b9-029a-4e17-b1fb-c3c7da9a4269"
+			"id": "1272b4b9-029a-4e17-b1fb-c3c7da9a4269"
 		},
 		{
 			"name": "2. Scripting and Collection Runs",
@@ -198,7 +197,7 @@
 							}
 						}
 					],
-					"_postman_id": "506c97e3-2b2a-4ef1-b247-023d65915481",
+					"id": "506c97e3-2b2a-4ef1-b247-023d65915481",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -311,7 +310,7 @@
 							}
 						}
 					],
-					"_postman_id": "210d5ff8-4931-4b5b-8925-f241668dc0fa",
+					"id": "210d5ff8-4931-4b5b-8925-f241668dc0fa",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -522,7 +521,7 @@
 							}
 						}
 					],
-					"_postman_id": "0fd15a7c-22ed-4ce4-b653-6b1365748430",
+					"id": "0fd15a7c-22ed-4ce4-b653-6b1365748430",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -608,7 +607,7 @@
 					]
 				}
 			],
-			"_postman_id": "dde2e2e3-9b3b-4878-a6b6-259e26713392"
+			"id": "dde2e2e3-9b3b-4878-a6b6-259e26713392"
 		},
 		{
 			"name": "3. Check Progress",
@@ -629,7 +628,7 @@
 							}
 						}
 					],
-					"_postman_id": "947412fa-e149-45f3-b30d-d08cb80514b1",
+					"id": "947412fa-e149-45f3-b30d-d08cb80514b1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -842,7 +841,7 @@
 							}
 						}
 					],
-					"_postman_id": "db124003-2d20-4178-9686-95f2b2f5f126",
+					"id": "db124003-2d20-4178-9686-95f2b2f5f126",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -850,7 +849,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.postman.com/collections/8132166-c2b8e18c-585c-4e62-b9d1-40c33df71fd5?access_key=PMAT-01GREXMSWBYXH1VDWN02ZRWQZ5",
+							"raw": "https://api.postman.com/collections/8132166-c2b8e18c-585c-4e62-b9d1-40c33df71fd5?access_key=<access_key>",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -864,7 +863,7 @@
 							"query": [
 								{
 									"key": "access_key",
-									"value": "PMAT-01GREXMSWBYXH1VDWN02ZRWQZ5"
+									"value": "<access_key>"
 								}
 							]
 						},
@@ -873,7 +872,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "05d9803a-af8f-408c-9a65-91fbe399b335",
+			"id": "05d9803a-af8f-408c-9a65-91fbe399b335",
 			"event": [
 				{
 					"listen": "prerequest",
@@ -1078,40 +1077,36 @@
 	],
 	"variable": [
 		{
-			"id": "4aed9ee5-ffc7-4637-953f-7deac0faaf0d",
+			"id": "da96fc70-5e9a-4c6d-940e-10619094ef95",
 			"key": "mock_url",
-			"value": "https://6d338fbc-93bd-456e-85a0-818bd4cd3177.mock.pstmn.io",
-			"type": "string"
+			"value": "https://6d338fbc-93bd-456e-85a0-818bd4cd3177.mock.pstmn.io"
 		},
 		{
-			"id": "bdc7ed63-7817-4c51-b5d9-05bce911a4cc",
+			"id": "a081a9a7-8518-46de-9436-b8064a2030e0",
 			"key": "userId",
-			"value": "",
-			"type": "string"
+			"value": ""
 		},
 		{
-			"id": "f53f4b63-2689-42f2-9cfd-f834560dce8b",
+			"id": "ee9eeb29-00c1-46ed-b764-d2e03fef65ab",
 			"key": "training_api",
-			"value": "postman-student-expert.glitch.me",
-			"type": "string"
+			"value": "postman-student-expert.glitch.me"
 		},
 		{
-			"id": "cec58ad9-0899-4748-8aad-fb0833ed66a5",
+			"id": "6fdb2c1e-06b4-4418-b346-ac08b9100a23",
 			"key": "email_key",
 			"value": "d.s.uduwage@gmail.com",
 			"type": "string"
 		},
 		{
-			"id": "e9ba92d6-3dbb-43ea-a51b-cdfedd8e30e0",
+			"id": "80fc399a-ba32-4a62-83ee-0ed4dc2cd60d",
 			"key": "myCourse",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "bff41707-ce34-4f84-88ba-d346427395fc",
+			"id": "f712e9c2-37b0-48a5-904f-68763818ed1d",
 			"key": "skilled",
-			"value": "",
-			"type": "string"
+			"value": ""
 		}
 	]
 }
