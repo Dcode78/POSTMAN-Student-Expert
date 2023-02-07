@@ -6,11 +6,6 @@
 	},
 	"item": [
 		{
-			"name": "GitHub_integration_test",
-			"item": [],
-			"id": "e6a8b6b0-d1cc-4100-91f5-01c4574c9cc6"
-		},
-		{
 			"name": "get books",
 			"id": "8a5844eb-9491-4f6b-a2ef-bce383baafa6",
 			"protocolProfileBehavior": {
@@ -232,12 +227,12 @@
 	],
 	"variable": [
 		{
-			"id": "cb5db2f5-43c4-4712-a239-e418f6fdd619",
+			"id": "4aad6a7b-a3e7-4d87-a7ef-c372239e890f",
 			"key": "baseUrl",
 			"value": "https://library-api.postmanlabs.com"
 		},
 		{
-			"id": "3ff5d1ac-8d11-4be1-802c-6b204be58f91",
+			"id": "f67dcdbf-ec4f-42c3-b2be-5d879ae71726",
 			"key": "id",
 			"value": ""
 		}
