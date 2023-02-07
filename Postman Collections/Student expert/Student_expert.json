@@ -671,7 +671,7 @@
 							}
 						},
 						"url": {
-							"raw": "postman-skill-checker.glitch.me/skills?email=d.s.uduwage@gmail.com",
+							"raw": "postman-skill-checker.glitch.me/skills?email=<email>",
 							"host": [
 								"postman-skill-checker",
 								"glitch",
@@ -683,7 +683,7 @@
 							"query": [
 								{
 									"key": "email",
-									"value": "d.s.uduwage@gmail.com"
+									"value": "<email>"
 								}
 							]
 						},
@@ -1077,34 +1077,34 @@
 	],
 	"variable": [
 		{
-			"id": "da96fc70-5e9a-4c6d-940e-10619094ef95",
+			"id": "c9dfd184-1251-4b55-b27b-fbd2f7099f83",
 			"key": "mock_url",
 			"value": "https://6d338fbc-93bd-456e-85a0-818bd4cd3177.mock.pstmn.io"
 		},
 		{
-			"id": "a081a9a7-8518-46de-9436-b8064a2030e0",
+			"id": "c6762f7b-5275-45fd-85f9-c7c7058b5a68",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "ee9eeb29-00c1-46ed-b764-d2e03fef65ab",
+			"id": "56ab337b-a9e9-49ec-94c7-a57354123ca2",
 			"key": "training_api",
 			"value": "postman-student-expert.glitch.me"
 		},
 		{
-			"id": "6fdb2c1e-06b4-4418-b346-ac08b9100a23",
+			"id": "d5c32019-23c6-4896-b2d8-52dc1b7fe03f",
 			"key": "email_key",
 			"value": "d.s.uduwage@gmail.com",
 			"type": "string"
 		},
 		{
-			"id": "80fc399a-ba32-4a62-83ee-0ed4dc2cd60d",
+			"id": "a6c7f17e-70f4-421b-a317-73e9debc1ad5",
 			"key": "myCourse",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "f712e9c2-37b0-48a5-904f-68763818ed1d",
+			"id": "678f82ca-9304-42aa-9632-28cb55a3eb36",
 			"key": "skilled",
 			"value": ""
 		}
