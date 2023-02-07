@@ -6,8 +6,13 @@
 	},
 	"item": [
 		{
+			"name": "New Folder",
+			"item": [],
+			"id": "e6a8b6b0-d1cc-4100-91f5-01c4574c9cc6"
+		},
+		{
 			"name": "get books",
-			"_postman_id": "8a5844eb-9491-4f6b-a2ef-bce383baafa6",
+			"id": "8a5844eb-9491-4f6b-a2ef-bce383baafa6",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -20,7 +25,7 @@
 		},
 		{
 			"name": "get fictiona books",
-			"_postman_id": "ea143a96-2524-481e-a6af-8e7136867604",
+			"id": "ea143a96-2524-481e-a6af-8e7136867604",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -57,7 +62,7 @@
 		},
 		{
 			"name": "get book by id",
-			"_postman_id": "37917e36-d427-4810-93db-633932f14f33",
+			"id": "37917e36-d427-4810-93db-633932f14f33",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -76,8 +81,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": "{{id}}",
-							"type": "string"
+							"value": "{{id}}"
 						}
 					]
 				}
@@ -101,7 +105,7 @@
 					}
 				}
 			],
-			"_postman_id": "f0ef9293-7bb9-4981-9cf2-7e68cc24a326",
+			"id": "f0ef9293-7bb9-4981-9cf2-7e68cc24a326",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -123,7 +127,7 @@
 		},
 		{
 			"name": "checkout a book",
-			"_postman_id": "141b6752-aac1-4ecd-916d-031c19875b38",
+			"id": "141b6752-aac1-4ecd-916d-031c19875b38",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -151,8 +155,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": "{{id}}",
-							"type": "string"
+							"value": "{{id}}"
 						}
 					]
 				}
@@ -161,7 +164,7 @@
 		},
 		{
 			"name": "delete a book",
-			"_postman_id": "b1f50531-cdb6-44a7-882f-ddccb2fafd8b",
+			"id": "b1f50531-cdb6-44a7-882f-ddccb2fafd8b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -190,8 +193,7 @@
 						{
 							"id": "e194f73a-3ea8-4dd2-973b-985b403c3e81",
 							"key": "id",
-							"value": "{{id}}",
-							"type": "string"
+							"value": "{{id}}"
 						}
 					]
 				}
@@ -230,16 +232,14 @@
 	],
 	"variable": [
 		{
-			"id": "130ac4ee-39b1-4bd1-9030-2591db233cad",
+			"id": "64013ff3-ca0f-4bed-81a0-fb0ac91a04b7",
 			"key": "baseUrl",
-			"value": "https://library-api.postmanlabs.com",
-			"type": "string"
+			"value": "https://library-api.postmanlabs.com"
 		},
 		{
-			"id": "d5279418-7e5e-4a93-adb6-d58561e7dae9",
+			"id": "44f87371-31b7-4441-bd3a-4bfd41f5b44e",
 			"key": "id",
-			"value": "",
-			"type": "string"
+			"value": ""
 		}
 	]
 }
