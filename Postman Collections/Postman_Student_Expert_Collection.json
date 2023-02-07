@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "New Folder",
+			"name": "GitHub_integration_test",
 			"item": [],
 			"id": "e6a8b6b0-d1cc-4100-91f5-01c4574c9cc6"
 		},
@@ -232,12 +232,12 @@
 	],
 	"variable": [
 		{
-			"id": "64013ff3-ca0f-4bed-81a0-fb0ac91a04b7",
+			"id": "96b69c56-3999-4fc9-b7e6-61f407de1c9d",
 			"key": "baseUrl",
 			"value": "https://library-api.postmanlabs.com"
 		},
 		{
-			"id": "44f87371-31b7-4441-bd3a-4bfd41f5b44e",
+			"id": "770c26f5-1694-4c85-bc91-962004e1c347",
 			"key": "id",
 			"value": ""
 		}
