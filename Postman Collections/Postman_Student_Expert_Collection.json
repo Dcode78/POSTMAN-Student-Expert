@@ -24,6 +24,34 @@
 			"response": []
 		},
 		{
+			"name": "get books Copy",
+			"id": "175ba8fc-64c9-4528-80b4-f3defcea328f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/books?pages=1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "pages",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "get fictiona books",
 			"id": "ea143a96-2524-481e-a6af-8e7136867604",
 			"protocolProfileBehavior": {
@@ -232,12 +260,12 @@
 	],
 	"variable": [
 		{
-			"id": "96b69c56-3999-4fc9-b7e6-61f407de1c9d",
+			"id": "2a782048-f967-430d-9bbd-ef8b8ccbe3dc",
 			"key": "baseUrl",
 			"value": "https://library-api.postmanlabs.com"
 		},
 		{
-			"id": "770c26f5-1694-4c85-bc91-962004e1c347",
+			"id": "fc00bbf3-a3a3-47bd-85c5-d0b6a7534d47",
 			"key": "id",
 			"value": ""
 		}
