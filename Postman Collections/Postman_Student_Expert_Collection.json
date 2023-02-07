@@ -19,7 +19,7 @@
 			"response": []
 		},
 		{
-			"name": "get fictiona books",
+			"name": "get fictional books",
 			"id": "ea143a96-2524-481e-a6af-8e7136867604",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -227,12 +227,12 @@
 	],
 	"variable": [
 		{
-			"id": "4aad6a7b-a3e7-4d87-a7ef-c372239e890f",
+			"id": "93750a86-4594-4000-94a0-b35e6c7a32f8",
 			"key": "baseUrl",
 			"value": "https://library-api.postmanlabs.com"
 		},
 		{
-			"id": "f67dcdbf-ec4f-42c3-b2be-5d879ae71726",
+			"id": "107d8e61-9d02-4964-bda8-7d4f41199efe",
 			"key": "id",
 			"value": ""
 		}
