@@ -945,7 +945,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "e6de1aa8-cb59-4f9d-8f3b-5fc6124adeaf",
+				"id": "8e5ccdec-ea27-477f-8229-21e6b8988a82",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -955,7 +955,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "adda8fd7-5aa3-4812-9716-fefadd4226ba",
+				"id": "4a584c88-5886-4d16-ab09-8032dee88576",
 				"type": "text/javascript",
 				"exec": [
 					"var template = `",
@@ -1077,34 +1077,34 @@
 	],
 	"variable": [
 		{
-			"id": "c9dfd184-1251-4b55-b27b-fbd2f7099f83",
+			"id": "4fd190ca-8b9f-4ccf-be6f-5707492201df",
 			"key": "mock_url",
 			"value": "https://6d338fbc-93bd-456e-85a0-818bd4cd3177.mock.pstmn.io"
 		},
 		{
-			"id": "c6762f7b-5275-45fd-85f9-c7c7058b5a68",
+			"id": "a559f400-2117-4409-a32e-ad18f70aa811",
 			"key": "userId",
 			"value": ""
 		},
 		{
-			"id": "56ab337b-a9e9-49ec-94c7-a57354123ca2",
+			"id": "927dc87c-c7dd-4f43-b077-f29379a68fca",
 			"key": "training_api",
 			"value": "postman-student-expert.glitch.me"
 		},
 		{
-			"id": "d5c32019-23c6-4896-b2d8-52dc1b7fe03f",
+			"id": "30f6fb96-056c-437f-bd1e-3ff6242d52d0",
 			"key": "email_key",
 			"value": "d.s.uduwage@gmail.com",
 			"type": "string"
 		},
 		{
-			"id": "a6c7f17e-70f4-421b-a317-73e9debc1ad5",
+			"id": "143b7587-b8c0-4f6b-8e6e-d121e7d9ac99",
 			"key": "myCourse",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "678f82ca-9304-42aa-9632-28cb55a3eb36",
+			"id": "b98d3fa0-f4e1-47f8-b032-56245ae3069c",
 			"key": "skilled",
 			"value": ""
 		}
